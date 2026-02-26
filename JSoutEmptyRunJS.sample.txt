@@ -1,0 +1,27 @@
+step:
+loadurl https://loadsitesample.com/
+step:
+activeMainWindow
+step:
+mouseclick 1529 35
+step:
+testColorTrueDoNext 872,250,2,2,2
+step:
+sysMouseMove 1247 235
+step:
+mouseclick 915 130
+step:
+mouseclick 921 134
+step:
+document.getElementById('__login_frame').contentWindow.document.getElementById('J-input-user').value='sample_email';
+step:
+mouseclick 814 253
+step:
+document.getElementById('__login_frame').contentWindow.document.getElementsByTagName('input')[24].value='sample_set_text';
+step:
+sysMouseMove 1133 436
+step:
+linkclick 803 329
+step:
+loadurl https://finishloadsample.com/
+
